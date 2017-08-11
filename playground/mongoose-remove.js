@@ -15,3 +15,6 @@ Todo.findByIdAndRemove('598c2240f98e89567254a73e').then((todo)=>{
 console.log(todo);
 });
 
+Todo.findOneAndRemove({_id: '598c2240f98e89567254a73e'}).then((todo)=>{
+console.log(todo);
+});
